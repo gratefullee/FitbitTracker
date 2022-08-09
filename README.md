@@ -5,11 +5,13 @@ Fitbit Tracker Dataset is available at https://www.kaggle.com/datasets/arashnic/
 The dataset is Fitbit device data from 33 individual users, collected between 3/12/16 and
 5/12/16. It has records about their daily physical activities, calories, heartbeats, sleep durations, their log in records for weight updates, and etc.
 
+
+
 1. strong linear correlation between total minutes in bed and total minutes of sleep. (r=0.93) 
 
-2. Users with frequent weight update tend to burn more calories per day. (2-sample t-test p-value = 0.3773) 
 
-3. With K-mean clustering, I found users with unhealthy daily routine. They spend time just sitting and sleep significantly less. 
+2. With K-mean clustering, I found users with unhealthy daily routine. They spend time just sitting and sleep significantly less. 
 
-4. For BPM data, a lot of users leave with empty data or just partially recorded. This seems like data deficiency. 
+
+3. For BPM data, a lot of users leave with empty data or just partially recorded. This seems like data deficiency. 
 
